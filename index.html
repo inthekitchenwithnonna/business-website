@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f5ee">
+  <meta name="description" content="Get in touch with In the Kitchen with Nonna about collaborations, press, and other business inquiries.">
+  <title>Business Inquiries | In the Kitchen with Nonna</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='29' fill='%23c3891b'/%3E%3Ccircle cx='32' cy='32' r='25' fill='%23fffaf0'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-size='39' fill='%23875019'%3EN%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="/" aria-label="In the Kitchen with Nonna, home">In the Kitchen <em>with Nonna</em></a>
+    <a class="header-email" href="mailto:info@nonnajoyce.com">info@nonnajoyce.com <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main class="main-grid">
+    <section class="introduction" aria-labelledby="page-title">
+      <div class="eyebrow"><span class="eyebrow-line"></span> Let’s talk</div>
+      <h1 id="page-title">Good things begin <em>around the table.</em></h1>
+      <p class="intro-copy">Have a business idea for In the Kitchen with Nonna? Tell us a little about it and our team will be in touch.</p>
+      <div class="brand-image-wrap"><img class="brand-image" src="/assets/nonna-logo.png" alt="In the Kitchen with Nonna logo featuring Nonna Joyce" width="1254" height="1254"></div>
+      <p class="contact-line">Prefer email? <a href="mailto:info@nonnajoyce.com">info@nonnajoyce.com</a></p>
+    </section>
+
+    <section class="form-panel" aria-labelledby="form-title">
+      <div class="panel-topline"><span>Business inquiries</span><span class="flourish" aria-hidden="true">✳</span></div>
+      <h2 id="form-title">Send us a note</h2>
+      <p class="form-intro">Collaborations, press, partnerships, and other opportunities are welcome.</p>
+      <form action="https://formsubmit.co/info@nonnajoyce.com" method="POST">
+        <input type="hidden" name="_subject" value="New business inquiry — In the Kitchen with Nonna">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_autoresponse" value="Thanks for reaching out to In the Kitchen with Nonna! We received your business inquiry and will review it soon. Thanks for coming to our Kitchen! ~ In the Kitchen with Nonna Team">
+        <input type="hidden" name="_next" value="https://business.nonnajoyce.com/thanks.html">
+        <div class="honeypot" aria-hidden="true"><label for="website">Leave this field empty</label><input id="website" type="text" name="_honey" tabindex="-1" autocomplete="off"></div>
+        <div class="two-fields">
+          <div class="field"><label for="name">Your name <span>*</span></label><input id="name" name="name" type="text" autocomplete="name" placeholder="First and last name" required></div>
+          <div class="field"><label for="email">Email address <span>*</span></label><input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required></div>
+        </div>
+        <div class="field"><label for="organization">Company or organization <span class="optional">Optional</span></label><input id="organization" name="organization" type="text" autocomplete="organization" placeholder="Where you work"></div>
+        <div class="field"><label for="inquiry">What is this about? <span>*</span></label><select id="inquiry" name="inquiry_type" required><option value="" disabled selected>Select an inquiry type</option><option>Brand collaboration</option><option>Press or interview</option><option>Partnership</option><option>Other business inquiry</option></select></div>
+        <div class="field"><label for="message">Your message <span>*</span></label><textarea id="message" name="message" rows="5" placeholder="Tell us about your idea, timing, and any helpful details…" required></textarea></div>
+        <button class="submit" type="submit">Send inquiry <span aria-hidden="true">↗</span></button>
+        <p class="privacy-note">Your message is sent to the In the Kitchen with Nonna team by FormSubmit. Please avoid including sensitive personal information.</p>
+      </form>
+    </section>
+  </main>
+  <footer><span>© <span id="year">2026</span> In the Kitchen with Nonna</span><span>Made for conversations worth having.</span></footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
